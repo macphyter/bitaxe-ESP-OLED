@@ -1,0 +1,145 @@
+(footprint "RH100-oscillator"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Raltron RH100 Oscillator")
+	(property "Reference" "Y"
+		(at -1.63 -2.23 0)
+		(layer "F.SilkS")
+		(uuid "e39c51be-3fd9-4906-afb7-9d6cdb80be30")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "RH100"
+		(at 0.01 2.42 0)
+		(layer "F.SilkS")
+		(uuid "460641a6-f3af-46ce-baf4-1071c439f0e1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4fd9a267-eda0-4209-b3d7-5fe7c12526ea")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.raltron.com/webproducts/specs/CRYSTAL/RH100-40.000-12-F-1010-TR.pdf"
+		(at 0.12 4.31 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ada0c7e1-430e-42e7-9242-00c0614605ab")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Raltron RH100 Oscillator"
+		(at 0.05 -3.94 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2354e2d3-24b8-44fd-b84f-dff836127869")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Digikey" "2151-RH100-40.000-12-F-1010-TRCT-ND"
+		(at -0.1 6.18 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2efdd755-06a5-4309-86b6-81e2290daa2a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2 -1.55)
+		(end -2 1.55)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1bf3360d-93ec-46a8-a3ea-0100ce49e3bf")
+	)
+	(fp_line
+		(start -2 -1.55)
+		(end 2 -1.55)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "50f704e8-bc58-47c1-9ed4-494b6763f884")
+	)
+	(fp_line
+		(start -2 1.55)
+		(end 2 1.55)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3635bef1-fa1f-43cb-b144-adeed59282fe")
+	)
+	(fp_line
+		(start 2 -1.55)
+		(end 2 1.55)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bc6f7d75-c44e-484e-8800-b9346f3555d0")
+	)
+	(pad "1" smd rect
+		(at -1.1 0.8)
+		(size 1.4 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(clearance 0.1)
+		(uuid "04c8e429-e8dc-4391-b47e-9dec154a54ee")
+	)
+	(pad "2" smd rect
+		(at 1.1 0.8)
+		(size 1.4 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(clearance 0.1)
+		(uuid "d0818ea4-19ea-4e48-9358-90f5a39fd097")
+	)
+	(pad "3" smd rect
+		(at 1.1 -0.8)
+		(size 1.4 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(clearance 0.1)
+		(uuid "eaf83056-7877-4db6-9ad4-eab38b3fd40e")
+	)
+	(pad "4" smd rect
+		(at -1.1 -0.8)
+		(size 1.4 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(clearance 0.1)
+		(uuid "fc1a496f-5991-4bbc-bc5b-52c030c64c94")
+	)
+)
