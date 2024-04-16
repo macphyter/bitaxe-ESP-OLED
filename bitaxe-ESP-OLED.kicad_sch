@@ -4890,6 +4890,12 @@
 		(uuid "9a79ef54-b39e-4667-bcf1-3cc2ddacd01a")
 	)
 	(junction
+		(at 222.25 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a03c9fab-4327-4a4c-9905-1038b194dd86")
+	)
+	(junction
 		(at 134.62 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5122,6 +5128,16 @@
 			(type default)
 		)
 		(uuid "0d64a104-69ab-46ea-aef4-5f9f7c10e8c7")
+	)
+	(wire
+		(pts
+			(xy 180.34 22.86) (xy 189.23 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d91e8d5-4e37-47a4-bd35-a66cbb4a85f8")
 	)
 	(wire
 		(pts
@@ -5422,6 +5438,16 @@
 			(type default)
 		)
 		(uuid "2badf658-3dda-433a-b1d9-5a53d36d371e")
+	)
+	(wire
+		(pts
+			(xy 114.3 85.09) (xy 133.35 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d2559ef-b9fa-4c22-9aec-fb104bda07af")
 	)
 	(wire
 		(pts
@@ -5772,6 +5798,16 @@
 			(type default)
 		)
 		(uuid "5116c5c6-3fa7-4518-b19a-9571b9b4104d")
+	)
+	(wire
+		(pts
+			(xy 222.25 58.42) (xy 222.25 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51af78f6-12fd-4e67-9c73-462c25b96c37")
 	)
 	(wire
 		(pts
@@ -6465,16 +6501,6 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 22.86) (xy 199.39 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "947212a3-181c-4a8f-9675-70a311819da6")
-	)
-	(wire
-		(pts
 			(xy 191.77 134.62) (xy 189.23 134.62)
 		)
 		(stroke
@@ -6725,6 +6751,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 81.28) (xy 133.35 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a953210f-ebbf-4487-a1c0-dd459dd2dca3")
+	)
+	(wire
+		(pts
 			(xy 25.4 73.66) (xy 25.4 76.2)
 		)
 		(stroke
@@ -6965,6 +7001,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 58.42) (xy 254 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2e2fec4-a87c-400f-823d-21780abc0d50")
+	)
+	(wire
+		(pts
 			(xy 247.65 21.59) (xy 257.81 21.59)
 		)
 		(stroke
@@ -7002,16 +7048,6 @@
 			(type default)
 		)
 		(uuid "caa338a3-7979-4b90-8159-46bf7971f2be")
-	)
-	(wire
-		(pts
-			(xy 199.39 22.86) (xy 199.39 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb171cac-f306-440a-9409-a329136bee1d")
 	)
 	(wire
 		(pts
@@ -7212,16 +7248,6 @@
 			(type default)
 		)
 		(uuid "dcec1973-ced3-4190-81e5-f71a0ce4b148")
-	)
-	(wire
-		(pts
-			(xy 180.34 22.86) (xy 189.23 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "deae9101-43dd-4dfb-bc61-9467dde36eea")
 	)
 	(wire
 		(pts
@@ -7525,7 +7551,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 58.42) (xy 254 58.42)
+			(xy 214.63 58.42) (xy 222.25 58.42)
 		)
 		(stroke
 			(width 0)
@@ -7615,7 +7641,7 @@
 		)
 		(uuid "0335dfe5-e632-4214-857d-d264da89aab4")
 	)
-	(label "LEDK4"
+	(label "LEDK1"
 		(at 232.41 114.3 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7757,6 +7783,17 @@
 			(justify right bottom)
 		)
 		(uuid "214420d3-f9da-49aa-a017-00f326b278a1")
+	)
+	(label "UI1"
+		(at 114.3 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2446274d-1d61-42e7-85ab-7cdabf9d0dfe")
 	)
 	(label "GPIO2"
 		(at 114.3 63.5 0)
@@ -7912,7 +7949,7 @@
 		)
 		(uuid "3d4d545f-b55a-4c9b-be3b-0d0e379f2422")
 	)
-	(label "LEDK3"
+	(label "LEDK2"
 		(at 232.41 111.76 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7968,13 +8005,13 @@
 		(uuid "44811111-aa1d-4bdd-8121-f1001bb1544d")
 	)
 	(label "VDD_SPI"
-		(at 181.61 22.86 0)
+		(at 189.23 22.86 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "459073df-7b96-41a9-ad26-988603d5fb86")
 	)
@@ -8033,7 +8070,7 @@
 		)
 		(uuid "4edaea13-2a61-493b-806d-ca3288c2bc27")
 	)
-	(label "LEDK2"
+	(label "LEDK3"
 		(at 232.41 109.22 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8221,7 +8258,7 @@
 		(uuid "7954701a-bb08-47e6-9858-d16c236774b6")
 	)
 	(label "3V3"
-		(at 226.06 58.42 0)
+		(at 214.63 58.42 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8330,6 +8367,28 @@
 		)
 		(uuid "96332470-72ac-4460-8333-fdd1a9470d43")
 	)
+	(label "UI2"
+		(at 114.3 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9af4551e-41e2-4bb3-8a54-0c1de866059a")
+	)
+	(label "3V3"
+		(at 219.71 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9bf44109-4793-42ef-876f-90bc82d31fd2")
+	)
 	(label "SPI_D"
 		(at 252.73 38.1 180)
 		(fields_autoplaced yes)
@@ -8407,7 +8466,7 @@
 		)
 		(uuid "bab4503f-5c0c-4d32-977f-9fde3cdab7c8")
 	)
-	(label "LEDK1"
+	(label "LEDK4"
 		(at 232.41 106.68 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8571,17 +8630,6 @@
 			(justify right bottom)
 		)
 		(uuid "f38b80dd-abf3-4e83-9d1f-8102d5b145a5")
-	)
-	(label "LEDA"
-		(at 219.71 104.14 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f4fbb99e-07e8-40b8-8f01-e476a7cefd33")
 	)
 	(label "LCD_BLK"
 		(at 181.61 129.54 0)
@@ -9585,93 +9633,6 @@
 			(project "bitaxe-ESP-OLED"
 				(path "/4620448a-8f8c-4f0c-a7dd-d620330051ff"
 					(reference "C15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 193.04 22.86 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2eb8b7aa-6020-41a2-a34e-2e0be3ba2205")
-		(property "Reference" "C9"
-			(at 194.31 19.304 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 194.818 26.416 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 196.85 21.8948 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 193.04 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 193.04 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTNO" "EMK105BJ105MV-F"
-			(at 193.04 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DK" "587-5514-1-ND"
-			(at 193.04 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b1eb9b48-2977-4f36-bb47-cce860a6c88d")
-		)
-		(pin "2"
-			(uuid "0be0bcb0-25ca-45fd-8c7f-40f461e3fdbd")
-		)
-		(instances
-			(project "bitaxe-ESP-OLED"
-				(path "/4620448a-8f8c-4f0c-a7dd-d620330051ff"
-					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -11223,71 +11184,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 199.39 25.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "71f3932b-a75a-452e-b5d4-eb6745009ae6")
-		(property "Reference" "#PWR016"
-			(at 199.39 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 199.39 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 199.39 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 199.39 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 199.39 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "65827fd5-5c7d-495a-92c3-ecd7926b67c3")
-		)
-		(instances
-			(project "bitaxe-ESP-OLED"
-				(path "/4620448a-8f8c-4f0c-a7dd-d620330051ff"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "bitaxe:RT9080-33GJ5")
 		(at 148.59 158.75 0)
 		(unit 1)
@@ -11358,6 +11254,71 @@
 			(project "bitaxe-ESP-OLED"
 				(path "/4620448a-8f8c-4f0c-a7dd-d620330051ff"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 222.25 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "74330e10-b145-489e-90e1-639c94b12f41")
+		(property "Reference" "#PWR016"
+			(at 222.25 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 222.25 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 222.25 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 222.25 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "20e0ee9e-de49-4c5f-a74b-5a0832fbb208")
+		)
+		(instances
+			(project "bitaxe-ESP-OLED"
+				(path "/4620448a-8f8c-4f0c-a7dd-d620330051ff"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -12341,6 +12302,93 @@
 			(project "bitaxe-ESP-OLED"
 				(path "/4620448a-8f8c-4f0c-a7dd-d620330051ff"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 222.25 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a261a4df-ef8d-4107-a572-cf27407980c7")
+		(property "Reference" "C9"
+			(at 225.044 62.738 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 225.044 65.278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 223.2152 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 222.25 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 222.25 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "GRM188R60J105KA01D"
+			(at 222.25 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "490-1550-1-ND"
+			(at 222.25 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "473d3627-711c-4db0-a37b-b7252815bdb3")
+		)
+		(pin "2"
+			(uuid "9117421e-4188-46b3-897a-087871709755")
+		)
+		(instances
+			(project "bitaxe-ESP-OLED"
+				(path "/4620448a-8f8c-4f0c-a7dd-d620330051ff"
+					(reference "C9")
 					(unit 1)
 				)
 			)
