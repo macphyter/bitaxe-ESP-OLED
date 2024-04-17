@@ -7047,7 +7047,7 @@
 			(pin output line
 				(at -21.59 -33.02 0)
 				(length 2.54)
-				(name "U0TXD"
+				(name "GPIO43/U0TXD"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7083,7 +7083,7 @@
 			(pin input line
 				(at -21.59 -35.56 0)
 				(length 2.54)
-				(name "U0RXD"
+				(name "GPIO44/U0RXD"
 					(effects
 						(font
 							(size 1.27 1.27)
