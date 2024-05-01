@@ -13690,7 +13690,7 @@
 		(descr "Through hole straight pin header, 1x06, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x06 2.54mm single row")
 		(property "Reference" "J1"
-			(at -2.05 -7.45 360)
+			(at -2.05 -7.45 0)
 			(layer "B.SilkS")
 			(uuid "8788f8b6-e4bf-4630-b541-604dc3853005")
 			(effects
@@ -13702,7 +13702,7 @@
 			)
 		)
 		(property "Value" "Conn_01x06"
-			(at -2.76 -5.75 360)
+			(at -2.76 -5.75 0)
 			(layer "B.Fab")
 			(uuid "8aef36ce-53d1-4dbd-9fc8-8952fd0bb78e")
 			(effects
@@ -13908,7 +13908,7 @@
 			(uuid "c40ba58b-ec86-439f-a88b-7a952d5c145e")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -6.35 360)
+			(at 0 -6.35 0)
 			(layer "B.Fab")
 			(uuid "20e3744c-4ef0-47de-968f-2c495c1124dd")
 			(effects
@@ -15337,7 +15337,7 @@
 		(uuid "18ca9840-afb9-49e3-8db9-a8645f395c73")
 	)
 	(gr_line
-		(start 132.6 103.8)
+		(start 132.573 103.8)
 		(end 183.827 103.8)
 		(stroke
 			(width 0.1)
