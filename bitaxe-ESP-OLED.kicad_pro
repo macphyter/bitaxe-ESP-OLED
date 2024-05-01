@@ -497,7 +497,7 @@
       "plot": "Manufacturing/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "bitaxe-ESP-OLED.step",
       "svg": "",
       "vrml": ""
     },
