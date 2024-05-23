@@ -5219,6 +5219,12 @@
 		(uuid "1d14a68b-4d4a-4a37-84de-2193f0a1aca4")
 	)
 	(junction
+		(at 55.88 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1fcf6914-5f10-4eba-89bd-360ed34ade1d")
+	)
+	(junction
 		(at 77.47 15.24)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5433,6 +5439,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bf34b99b-96c8-48de-9def-afae796fa505")
+	)
+	(junction
+		(at 49.53 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bf61f1d5-587e-4a6a-8bd9-d3dda2951f77")
 	)
 	(junction
 		(at 77.47 30.48)
@@ -5688,6 +5700,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 49.53) (xy 49.53 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14330a94-402c-42a4-aa02-460c8c30d909")
+	)
+	(wire
+		(pts
 			(xy 29.21 186.69) (xy 36.83 186.69)
 		)
 		(stroke
@@ -5898,7 +5920,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 35.56) (xy 59.69 35.56)
+			(xy 49.53 35.56) (xy 55.88 35.56)
 		)
 		(stroke
 			(width 0)
@@ -6048,7 +6070,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 46.99) (xy 49.53 53.34)
+			(xy 49.53 46.99) (xy 49.53 49.53)
 		)
 		(stroke
 			(width 0)
@@ -6345,6 +6367,16 @@
 			(type default)
 		)
 		(uuid "523c8e6f-65a1-419f-ace5-ec81277ac4d5")
+	)
+	(wire
+		(pts
+			(xy 55.88 35.56) (xy 55.88 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "533e3c5e-6fd1-4ff6-b601-caaf7cf2db10")
 	)
 	(wire
 		(pts
@@ -7038,6 +7070,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 35.56) (xy 59.69 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90099f90-0b09-41de-b216-e7242f39e579")
+	)
+	(wire
+		(pts
 			(xy 93.98 53.34) (xy 93.98 50.8)
 		)
 		(stroke
@@ -7638,6 +7680,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 49.53) (xy 49.53 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8896135-e5b7-4306-a8be-cb01a4f27160")
+	)
+	(wire
+		(pts
 			(xy 86.36 95.25) (xy 95.25 95.25)
 		)
 		(stroke
@@ -7805,6 +7857,16 @@
 			(type default)
 		)
 		(uuid "d8511033-b3c8-47c6-8361-dc1499e8d2e0")
+	)
+	(wire
+		(pts
+			(xy 55.88 45.72) (xy 55.88 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8e7eff4-59cb-48e0-9a63-0d865cbfbf8c")
 	)
 	(wire
 		(pts
@@ -9452,7 +9514,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "EMK105BJ105MV-F"
+		(property "PARTNO" "TL3340AF160QG"
 			(at 31.75 83.82 0)
 			(effects
 				(font
@@ -10514,71 +10576,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 59.69 35.56 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2a489ee1-2b10-45f4-a880-4a190bdcae93")
-		(property "Reference" "TP9"
-			(at 66.294 35.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 62.992 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 59.69 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 59.69 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 59.69 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9daadf4b-9e60-4a35-a096-7e14cd44fb65")
-		)
-		(instances
-			(project "bitaxe-ESP-OLED"
-				(path "/4620448a-8f8c-4f0c-a7dd-d620330051ff"
-					(reference "TP9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 67.31 22.86 0)
 		(unit 1)
@@ -11304,71 +11301,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 38.1 35.56 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "46b254f1-2abf-414c-ba5e-0da8f5ba2fa1")
-		(property "Reference" "TP5"
-			(at 44.704 35.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 41.402 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 38.1 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 38.1 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 38.1 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "63b1391e-69a1-46a3-96ac-54435efc0f91")
-		)
-		(instances
-			(project "bitaxe-ESP-OLED"
-				(path "/4620448a-8f8c-4f0c-a7dd-d620330051ff"
-					(reference "TP5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 55.88 83.82 0)
 		(unit 1)
@@ -11422,7 +11354,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "EMK105BJ105MV-F"
+		(property "PARTNO" "TL3340AF160QG"
 			(at 55.88 83.82 0)
 			(effects
 				(font
@@ -13327,6 +13259,93 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 55.88 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "975f918b-363a-4e26-8adc-a5eda9e564fc")
+		(property "Reference" "C20"
+			(at 58.674 39.878 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 58.674 42.418 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 56.8452 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 55.88 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "TL3340AF160QG"
+			(at 55.88 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "587-5514-1-ND"
+			(at 55.88 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d74b7fb-23b0-469f-8807-3b0ae65b1fe8")
+		)
+		(pin "2"
+			(uuid "ed3e4006-0ceb-46b9-9ba3-472cc5d291da")
+		)
+		(instances
+			(project "bitaxe-ESP-OLED"
+				(path "/4620448a-8f8c-4f0c-a7dd-d620330051ff"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 125.73 181.61 0)
 		(unit 1)
@@ -14061,7 +14080,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eswitch.wpengine.com/wp-content/uploads/2022/06/TL3301-1.pdf"
+		(property "Datasheet" "https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/164/TL3340.pdf"
 			(at 59.69 82.55 0)
 			(effects
 				(font
@@ -14070,7 +14089,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD SPST button"
+		(property "Description" "SMD right-angle SPST button"
 			(at 49.53 82.55 0)
 			(effects
 				(font
@@ -14088,7 +14107,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "141-TL3301NF160QG-KRCT-ND"
+		(property "DK" "EG4627CT-ND"
 			(at 50.8 82.55 0)
 			(effects
 				(font
@@ -14523,7 +14542,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eswitch.wpengine.com/wp-content/uploads/2022/06/TL3301-1.pdf"
+		(property "Datasheet" "https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/164/TL3340.pdf"
 			(at 35.56 82.55 0)
 			(effects
 				(font
@@ -14532,7 +14551,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD SPST button"
+		(property "Description" "SMD right-angle SPST button"
 			(at 25.4 82.55 0)
 			(effects
 				(font
@@ -14550,7 +14569,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "141-TL3301NF160QG-KRCT-ND"
+		(property "DK" "EG4627CT-ND"
 			(at 26.67 82.55 0)
 			(effects
 				(font
