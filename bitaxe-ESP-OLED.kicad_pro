@@ -58,7 +58,14 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "copper_edge_clearance|130073237|99999171|a144c57b-bed6-4283-a2a6-65430d05eff4|b9be9ddd-a30f-4c8e-9d84-f588a0396d44",
+        "copper_edge_clearance|130357446|70664485|22dd670f-9bb0-4a06-9823-127e56f25955|45badad3-a1ad-4487-8de3-a09c271baba5",
+        "hole_clearance|170050000|69755000|7dc9c0e1-09cf-4156-be94-b116c34e13c6|b75fa8d0-3248-42ad-8886-652527be0279",
+        "hole_clearance|170050000|69755000|7dc9c0e1-09cf-4156-be94-b116c34e13c6|e09f0d83-1198-42ae-a136-667ff872fc4d",
+        "hole_clearance|176150000|69755000|3e88a57d-a899-464f-b509-becc0053cae0|0be66e51-a28c-4c37-b5fa-da0a4b72d84a",
+        "hole_clearance|176150000|69755000|3e88a57d-a899-464f-b509-becc0053cae0|6df77293-cbce-4fc7-b179-f1fe710955d6"
+      ],
       "meta": {
         "version": 2
       },
@@ -79,6 +86,7 @@
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_near_hole": "error",
+        "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
         "item_on_disabled_layer": "error",
@@ -505,6 +513,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
+    "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",

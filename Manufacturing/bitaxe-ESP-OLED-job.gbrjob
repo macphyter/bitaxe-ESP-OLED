@@ -3,15 +3,15 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "8.0.1"
+      "Version": "8.0.6"
     },
-    "CreationDate": "2024-07-24T10:43:19-04:00"
+    "CreationDate": "2024-11-01T22:46:24-06:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "bitaxe-ESP-OLED",
       "GUID": "62697461-7865-42d4-9553-502d4f4c4544",
-      "Revision": "rev?"
+      "Revision": "v0.4"
     },
     "Size": {
       "X": 56.6516,
@@ -27,7 +27,9 @@
       "PadToPad": 0.05,
       "PadToTrack": 0.05,
       "TrackToTrack": 0.2,
-      "MinLineWidth": 0.2
+      "MinLineWidth": 0.2,
+      "TrackToRegion": 0.5,
+      "RegionToRegion": 0.5
     },
     {
       "Layers": "Inner",

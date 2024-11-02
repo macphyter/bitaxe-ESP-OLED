@@ -6,7 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Bitaxe ESP-OLED")
-		(rev "0.1")
+		(date "2024-11-01")
+		(rev "0.4")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
@@ -9719,7 +9720,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+		(property "Footprint" "bitaxe:SOT-23-6"
 			(at 198.12 114.3 0)
 			(effects
 				(font
