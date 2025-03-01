@@ -18,7 +18,7 @@ the connector wraps around through the notch and attaches to the 30-pin connecto
 This OLED display uses a ST7789 controller operates in parallel mode through its 30-pin connector.  
 The carrier board uses an ESP32-S3 MCU to drive the OLED.
 
-There are four user buttons on the sideof the board used for navigating the GUI.
+On the side of the board there is a Reset button, a bootmode button, and two user buttons used for navigating the GUI.
 
 The MCU firmware will display various GUI pages, and the data for these pages will be 
 supplied by the bitaxe through the UART.
